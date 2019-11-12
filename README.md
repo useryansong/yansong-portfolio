@@ -1,4 +1,4 @@
 
-## Info of project
+Info of project
 This is my portfolio
 
