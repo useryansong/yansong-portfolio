@@ -2,7 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-  "homepage": "./",
+  "homepage": "http://useryansong.github.io/yansong-portfolio",
   "dependencies": {
     "react": "next",
     "react-coverflow": "^0.2.20",
