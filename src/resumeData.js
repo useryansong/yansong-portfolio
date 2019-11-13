@@ -1,5 +1,4 @@
 let resumeData = {
-    // "imagebaseurl":"https://jgiamanco.github.io/",
     "name": "Yansong Shi",
     "role": "Full Stack Web Developer",
     "linkedinId":"useryansong",
@@ -21,13 +20,13 @@ let resumeData = {
         {
           "key":"3",
           "name":"Twitter",
-          "url":"https://twitter.com/GiamancoJ",
+          "url":"https://twitter.com/shi_yansong",
           "className":"fa fa-twitter"
         }
       ],
     "aboutme":"Since I was young I have always had a desire to learn, create, and help others. Early computer games like Math Blasters or The Oregon Trail, captivated my interest as a young child and started a love for technology. Now I aim to create websites and apps that may become an inspiration to others.",
     "address":"Adress: 19 Reiber Cres, North York, ON, M2H 1C3",
-    "website":"https://jgiamanco.github.io/resume",
+    "website":"#",
     "Cellphone":"Cellphone: 226-224-0866",
     "Email":"Email: useryansong@gmail.com",
     "education":[
@@ -119,10 +118,6 @@ let resumeData = {
         "key":"8",
         "skillname":"git-plain-wordmark"
       },
-      // {
-      //   "key":"9",
-      //   "skillname":"devicon-java-plain-wordmark"
-      // },
       {
         "key":"12",
         "skillname":"mongodb-plain-wordmark"
