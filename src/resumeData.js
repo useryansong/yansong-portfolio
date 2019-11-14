@@ -127,36 +127,36 @@ let resumeData = {
         "skillname":"mysql-plain-wordmark"
       },
     ],
-    // "portfolio":[
-    //   {
-    //     "key":"1",
-    //     "name":"Face Detection App",
-    //     "description":"SPA",
-    //     "imgurl":"images/project1.png",
-    //     "link": "https://facialdetection.netlify.com"
-    //   },
-    //   {
-    //     "key":"2",
-    //     "name":"NFL Roster App",
-    //     "description":"SPA",
-    //     "imgurl":"images/project2.png",
-    //     "link":"https://nflrosters.netlify.com"
-    //   },
-    //   {
-    //     "key":"3",
-    //     "name":"CRWN Clothing",
-    //     "description":"Webapp",  
-    //     "imgurl":"images/project3.PNG",
-    //     "link":"https://crwnclothingco.netlify.com"
-    //   },
-    //   {
-    //     "key":"4",
-    //     "name":"CryptoClash",
-    //     "description":"Data fetching Web App",
-    //     "imgurl":"images/project4.png",
-    //     "link":"https://cryptoclash.herokuapp.com"
-    //   }
-    // ]
+    "portfolio":[
+      {
+        "key":"1",
+        "name":"Bejeweled",
+        "description":"Game",
+        "imgurl":"images/Bejeweled.png",
+        "link": "https://useryansong.github.io/Bejeweled/Bejeweled.html"
+      },
+      {
+        "key":"2",
+        "name":"Snake",
+        "description":"Game",
+        "imgurl":"images/Snake.png",
+        "link":"https://useryansong.github.io/Game-snake/Snake.html"
+      },
+      {
+        "key":"3",
+        "name":"Checkers",
+        "description":"Game",  
+        "imgurl":"images/Checkers.png",
+        "link":"https://useryansong.github.io/Checkers/checker.html"
+      },
+      {
+        "key":"4",
+        "name":"Full Stack Project",
+        "description":"web design",
+        "imgurl":"images/project1.png",
+        "link":"https://github.com/useryansong/React-admin-client"
+      }
+    ]
   }
   
   export default resumeData

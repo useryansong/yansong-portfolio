@@ -4,18 +4,21 @@
   "private": true,
   "homepage": "http://useryansong.github.io/yansong-portfolio",
   "dependencies": {
-    "react": "next",
+    "antd": "^3.25.1",
+    "babel-plugin-import": "^1.12.2",
+    "customize-cra": "^0.8.0",
+    "react-app-rewired": "^2.1.5",
     "react-coverflow": "^0.2.20",
-    "react-dom": "next",
+    "react-dom": "^16.11.0",
     "react-pdf": "^4.1.0",
     "react-scripts": "^3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -28,6 +31,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "react": "^16.11.0"
   }
 }
