@@ -444,7 +444,7 @@ ul.skills {
 /* ------------------------------------------------------------------ */
 
 #portfolio {
-   background: #191919;
+   background: white;
    padding-top: 20px;
    padding-bottom: 0px;
 }
@@ -482,7 +482,7 @@ div.portfolio-item {
 
 .works {
    display: block;
-   color: black;
+   color: white;
 }
 .AchieveP {
    margin-bottom: 5px;
@@ -492,6 +492,19 @@ div.portfolio-item {
    margin-right: 50px;
 }
 
+.portTimeline {
+   padding-left: 100px;
+}
+.workHear {
+   font-size: 21px;
+   color: #292929;
+   border-bottom: 3.5px solid #e1e1e1;
+   width: 200px;
+   margin: 20px auto;
+   text-align: center;
+   padding-bottom: 10px;
+
+}
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
