@@ -31,7 +31,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url(../images/header-background2.jpg) no-repeat bottom center;
+   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(71, 23, 23, 0.3)), url(../images/home3.jpg) no-repeat bottom center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -317,9 +317,9 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 
 #about {
-   background: #2B2B2B;
+   background: rgb(218, 216, 216);
    margin: 0 auto;
-   padding-top: 50px;
+   padding-top: 40px;
    overflow: hidden;
 }
 
@@ -341,7 +341,10 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
    height: 200px;
    border-radius: 100%;
 }
-#about .contact-details { width: 41.66667%; }
+#about .contact-details { 
+   width: 41.66667%; 
+   left:50%;
+}
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -360,13 +363,36 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
    font-size: 20px;
 }
 
+.ant-carousel .slick-slide {
+   text-align: center;
+   height:160px;
+   line-height:160px;
+   overflow: hidden;
+}
+.ant-carousel .slick-slide img {
+   margin: 0 auto;
+   width:650px;
+   height: 400px;
+ }
+.aboutCarousel {
+   width: 160px;
+   height: 160px;
+}
+.ant-carousel .slick-slide h3 {
+   color: black;
+ }
+ .contactInfo{
+    width: 200px;
+    margin:0 auto;
+ }
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: green;
    height: 100vh;
    padding-top: 90px;
    padding-bottom: 72px;
@@ -492,9 +518,10 @@ div.portfolio-item {
    margin-right: 50px;
 }
 
-.portTimeline {
+ .portTimeline {
    padding-left: 100px;
-}
+   margin: 0 auto;
+} 
 .workHear {
    font-size: 21px;
    color: #292929;
@@ -504,6 +531,9 @@ div.portfolio-item {
    text-align: center;
    padding-bottom: 10px;
 
+}
+.Row1 {
+   padding-top: 70px;
 }
 /* overlay */
 .portfolio-item .item-wrap .overlay {
@@ -848,8 +878,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: rgb(201, 214, 197);
-   padding-top: 30px;
+   background: rgb(234, 236, 233);
+   padding-top: 10px;
    height: 40vh;
    padding-bottom: 50px;
    color: #636363;
@@ -888,7 +918,6 @@ call-to-action .button {
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
-
 
 /* contact form */
 #contact form { margin-bottom: 30px; }
@@ -995,7 +1024,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #fff; }
+footer a:hover, footer a:focus { color: green; }
 
 /* copyright */
 footer .copyright {

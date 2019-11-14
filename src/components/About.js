@@ -1,27 +1,27 @@
 import React, { Component } from 'react';
+import { Carousel } from 'antd'
+
 export default class About extends Component {
    render() {
-      let resumeData = this.props.resumeData;
+      // let resumeData = this.props.resumeData;
       return (
          <section id="about">
-            <div className="row">
 
-               {/* <div className="three columns">
-
-               <img className="profile-pic"  src="images/profilepic.jpg" alt="" />
-
-            </div> */}
-
-               <div className="twelve columns main-col">
-
-                  <h2>About Me</h2>
-                  <p>
-                     {
-                        resumeData.aboutme
-                     }
-                  </p>
+            <div className='workHear'>Hobbies</div>
+            <Carousel autoplay>
+               <div>
+                  <img src="images/Eating.png" />
+                  <h3>Eaing</h3>
                </div>
-            </div>
+               <div>
+                  <img src="images/Hiking.jpg" />
+                  <h3>Hiking</h3>
+               </div>
+               <div>
+                  <img src="images/Basketball.jpg" />
+                  <h3>Basketball</h3>
+               </div>
+            </Carousel>
          </section>
       );
    }
