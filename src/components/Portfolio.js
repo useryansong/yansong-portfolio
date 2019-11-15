@@ -3,6 +3,7 @@ import resumeData from '../resumeData';
 import Gallery from './Gallery';
 import { Timeline, Row, Col, Progress } from "antd"
 
+
 export default class Porfolio extends Component {
 
   render() {
@@ -12,10 +13,8 @@ export default class Porfolio extends Component {
         <div className='workHear'>Experience</div>
         <div className='portTimeline'>
           <Row>
+            <Col span={2}></Col>
             <Col span={8} className="Row1">
-
-              <div>
-
                 <Progress percent={90}
                   strokeColor={{
                     '0%': '#108ee9',
@@ -29,7 +28,7 @@ export default class Porfolio extends Component {
                     '100%': '#EF9112',
                   }}
                   status="active" />
-                <p>NODE.JS/MONGODB</p>
+                <p>NODE.JS/EXPRESS/MONGODB</p>
                 <Progress percent={75}
                   strokeColor={{
                     '0%': '#CD1DD0',
@@ -43,7 +42,7 @@ export default class Porfolio extends Component {
                     '100%': '#08EE3C',
                   }}
                   status="active" />
-                <p>TEAM WORK</p>
+                <p>TEAM WORK/TIME MANAGEMENT</p>
                 <Progress percent={85}
                   strokeColor={{
                     '0%': '#87CB30',
@@ -51,12 +50,9 @@ export default class Porfolio extends Component {
                   }}
                   status="active" />
                 <p>COMMUNICATION</p>
-              </div>
             </Col>
-
-            <Col span={5}></Col>
-
-            <Col span={11}>
+            <Col span={4}></Col>
+            <Col span={8}>
               <Timeline>
                 <Timeline.Item color="green">
                   <h4>Frontend Web Design</h4>
@@ -82,6 +78,7 @@ export default class Porfolio extends Component {
               </Timeline>
             </Col>
           </Row>
+          <Col span={2}></Col>
         </div>
         <div className="row">
           <div className="twelve columns collapsed">
