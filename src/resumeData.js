@@ -1,6 +1,6 @@
 let resumeData = {
     "name": "Yansong Shi",
-    "role": "Full Stack Web Developer",
+    "role": "Front End Developer",
     "linkedinId":"useryansong",
     "skypeid": "Your skypeid",
     "roleDescription": "",

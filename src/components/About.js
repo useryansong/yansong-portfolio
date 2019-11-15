@@ -19,7 +19,7 @@ export default class About extends Component {
                               {
                                  resumeData.testimonials && resumeData.testimonials.map((item) => {
                                     return (
-                                       <li>
+                                       <li key={item.name}>
                                           <blockquote>
                                              <p>
                                                 {item.description}

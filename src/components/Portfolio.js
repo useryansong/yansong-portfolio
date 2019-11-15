@@ -11,7 +11,7 @@ export default class Porfolio extends Component {
     return (
       <section id="portfolio">
         <h2 className='workHear'>Experience</h2>
-        <div className="portTimeline">
+        <div className="portTimeline animated animatedFadeInLeft fadeInLeft">
           <Row>
             <Col span={2}></Col>
             <Col span={8} className="Row1">
