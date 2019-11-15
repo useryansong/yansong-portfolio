@@ -7,7 +7,7 @@ export default class Skills extends Component {
         let resumeData = this.props.resumeData;
         return (
             <section id="skills">
-                <div className='workHear'>Skills</div>
+                <h2 className='workHear'>Skills</h2>
                 <div className="row skill">
 
                     <p>

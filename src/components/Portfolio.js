@@ -10,46 +10,46 @@ export default class Porfolio extends Component {
     // let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
-        <div className='workHear'>Experience</div>
-        <div className='portTimeline'>
+        <h2 className='workHear'>Experience</h2>
+        <div className="portTimeline">
           <Row>
             <Col span={2}></Col>
             <Col span={8} className="Row1">
-                <Progress percent={90}
-                  strokeColor={{
-                    '0%': '#108ee9',
-                    '100%': '#87d068',
-                  }}
-                />
-                <p>HTML/CSS/JAVASCRIPT/REACT.JS</p>
-                <Progress percent={80}
-                  strokeColor={{
-                    '0%': '#87CB30',
-                    '100%': '#EF9112',
-                  }}
-                  status="active" />
-                <p>NODE.JS/EXPRESS/MONGODB</p>
-                <Progress percent={75}
-                  strokeColor={{
-                    '0%': '#CD1DD0',
-                    '100%': '#730DE6',
-                  }}
-                  status="active" />
-                <p>LINUX/MYSQL</p>
-                <Progress percent={95}
-                  strokeColor={{
-                    '0%': '#1B9B78',
-                    '100%': '#08EE3C',
-                  }}
-                  status="active" />
-                <p>TEAM WORK/TIME MANAGEMENT</p>
-                <Progress percent={85}
-                  strokeColor={{
-                    '0%': '#87CB30',
-                    '100%': '#EE2E08',
-                  }}
-                  status="active" />
-                <p>COMMUNICATION</p>
+              <Progress percent={90}
+                strokeColor={{
+                  '0%': '#108ee9',
+                  '100%': '#87d068',
+                }}
+              />
+              <p>HTML/CSS/JAVASCRIPT/REACT.JS</p>
+              <Progress percent={80}
+                strokeColor={{
+                  '0%': '#87CB30',
+                  '100%': '#EF9112',
+                }}
+                status="active" />
+              <p>NODE.JS/EXPRESS/MONGODB</p>
+              <Progress percent={75}
+                strokeColor={{
+                  '0%': '#CD1DD0',
+                  '100%': '#730DE6',
+                }}
+                status="active" />
+              <p>LINUX/MYSQL</p>
+              <Progress percent={95}
+                strokeColor={{
+                  '0%': '#1B9B78',
+                  '100%': '#08EE3C',
+                }}
+                status="active" />
+              <p>TEAM WORK/TIME MANAGEMENT</p>
+              <Progress percent={85}
+                strokeColor={{
+                  '0%': '#87CB30',
+                  '100%': '#EE2E08',
+                }}
+                status="active" />
+              <p>COMMUNICATION</p>
             </Col>
             <Col span={4}></Col>
             <Col span={8}>
@@ -77,17 +77,19 @@ export default class Porfolio extends Component {
                 </Timeline.Item>
               </Timeline>
             </Col>
+            <Col span={2}></Col>
           </Row>
-          <Col span={2}></Col>
+
         </div>
-        <div className="row">
-          <div className="twelve columns collapsed">
-            <div className='workHear'>Experience·Project</div>
-            <div className="s-bgrid-thirds cf">
-              <Gallery resumeData={resumeData} />
-            </div>
+
+        <div>
+          <h2 className='workHear'>Experience·Project</h2>
+          <div className="s-bgrid-thirds cf ">
+            <Gallery resumeData={resumeData} />
           </div>
         </div>
+
+
       </section>
 
     );

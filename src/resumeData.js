@@ -156,6 +156,16 @@ let resumeData = {
         "imgurl":"images/project1.png",
         "link":"https://github.com/useryansong/React-admin-client"
       }
+    ],
+    "testimonials":[
+      {
+        "description":"I Love Traveling, Basketball and Hiking",
+        "name":"Enjoying Life"
+      },
+      {
+        "description":"I Love Coding and Work Hard",
+        "name":"Work Hard"
+      }
     ]
   }
   
