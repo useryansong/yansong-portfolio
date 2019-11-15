@@ -31,7 +31,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(71, 23, 23, 0.3)), url(../images/home3.jpg) no-repeat bottom center;
+   background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(71, 23, 23, 0.3)), url(../images/header-background2.jpg) no-repeat bottom center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -317,10 +317,11 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 
 
 #about {
-   background: rgb(218, 216, 216);
+   background: #fff;
    margin: 0 auto;
    padding-top: 40px;
    overflow: hidden;
+   width:80%;
 }
 
 #about a, #about a:visited  { color: #fff; }
@@ -382,8 +383,13 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
    color: black;
  }
  .contactInfo{
-    width: 200px;
+    width: 310px;
     margin:0 auto;
+ }
+ .aboutRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
  }
 
 
@@ -449,8 +455,6 @@ ul#nav li.current a { color:  rgb(0, 126, 11); }
 #skills {
    background: #fff;
    padding-bottom: 72px;
-   padding-left: 100px;
-
    overflow: hidden;
 }
 
@@ -519,7 +523,6 @@ div.portfolio-item {
 }
 
  .portTimeline {
-   padding-left: 100px;
    margin: 0 auto;
 } 
 .workHear {
@@ -535,6 +538,11 @@ div.portfolio-item {
 .Row1 {
    padding-top: 70px;
 }
+p{
+word-wrap:break-word;
+word-break:break-all;
+}
+
 /* overlay */
 .portfolio-item .item-wrap .overlay {
    position: absolute;
@@ -880,7 +888,7 @@ call-to-action .button {
 #contact {
    background: rgb(234, 236, 233);
    padding-top: 10px;
-   height: 40vh;
+   height: 45vh;
    padding-bottom: 50px;
    color: #636363;
 }
