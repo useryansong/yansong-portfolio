@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92c8f0759414bcd45bb7a85cc9e26908",
+    "revision": "4f36cbcb467bb4228d2424b536e0ff9c",
     "url": "/yansong-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yansong-portfolio/static/css/2.bc2c645b.chunk.css"
   },
   {
-    "revision": "c5e268a348657bbca5c4",
+    "revision": "51cd0246897defc11bc4",
     "url": "/yansong-portfolio/static/css/main.e8c24495.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yansong-portfolio/static/js/2.662b89d1.chunk.js"
   },
   {
-    "revision": "c5e268a348657bbca5c4",
-    "url": "/yansong-portfolio/static/js/main.8557612b.chunk.js"
+    "revision": "51cd0246897defc11bc4",
+    "url": "/yansong-portfolio/static/js/main.a2a481f2.chunk.js"
   },
   {
     "revision": "09374b264c830fd33ce9",

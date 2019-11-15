@@ -535,12 +535,17 @@ div.portfolio-item {
    padding-bottom: 10px;
 
 }
-.Row1 {
-   padding-top: 70px;
+.Row1{
+   padding-top: 50px;
 }
+
 p{
 word-wrap:break-word;
 word-break:break-all;
+}
+
+.Gallery{
+   background-color: grey;
 }
 
 /* overlay */
@@ -746,14 +751,15 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/nature3.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
 
    position: relative;
-   height: 80vh;
-   width: 100%;
+   left:10%;
+   height: 40vh;
+   width: 80%;
    overflow: hidden;
 }
 #testimonials .text-container {
@@ -886,16 +892,16 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: rgb(234, 236, 233);
-   padding-top: 10px;
-   height: 45vh;
+   background: #fff;
+   padding-top: 20px;
+   height: 30vh;
    padding-bottom: 50px;
    color: #636363;
 }
 #contact .section-head { margin-bottom: 42px; }
 
 #contact a, #contact a:visited  { color: rgb(0, 126, 11); }
-#contact a:hover, #contact a:focus { color: #fff; }
+#contact a:hover, #contact a:focus { color: rgb(0, 126, 11); }
 
 #contact h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
