@@ -23,7 +23,7 @@ export default class ContactUs extends Component {
                 {resumeData.Email}
               </span>
               <br></br>
-              <a href='https://useryansong.github.io/Resume-Yansong/Resume_Yansong%20Shi.pdf'>Online Resum&eacute;</a>
+              <a href='https://useryansong.github.io/Resume-Yansong/Resume_Yansong%20Shi.pdf' target="blank">Online Resum&eacute;</a>
             </p>
           </div>
 

@@ -16,14 +16,14 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#portfolio">Experience</a></li>
                <li><a className="smoothscroll" href="#skills">Skills</a></li>
                <li><a className="smoothscroll" href="#testimonials">About</a></li>
-               <li><a href="https://useryansong.github.io/Resume-Yansong/Resume_Yansong%20Shi.pdf">Resume</a></li>
+               <li><a href="https://useryansong.github.io/Resume-Yansong/Resume_Yansong%20Shi.pdf" target="blank">Resume</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
             </ul>
          </nav>
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="animated animatedFadeInLeft fadeInLeft responsive-headline">I am {resumeData.name}.</h1>
+               <h1 className="animated animatedFadeInLeft fadeInLeft responsive-headline">I am {resumeData.name}</h1>
                <hr/>
                <h3 className="animated animatedFadeInUp fadeInUp" style={{color:'#fff', fontFamily:'sans-serif '}}>A {resumeData.role}.{resumeData.roleDescription}</h3>
                <ul className="animated animatedFadeInUp fadeInUp social">
