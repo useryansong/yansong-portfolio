@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yansong-portfolio/precache-manifest.45b471529d81fc1f07efad9765f00fa1.js"
+  "/yansong-portfolio/precache-manifest.735c6185b9c5478353b20df41ac9f4ac.js"
 );
 
 self.addEventListener('message', (event) => {
